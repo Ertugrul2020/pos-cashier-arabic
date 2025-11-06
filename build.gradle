@@ -1,5 +1,4 @@
-// build.gradle (root)
-
+// Root-level build.gradle
 buildscript {
     repositories {
         google()

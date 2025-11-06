@@ -1,4 +1,3 @@
-// ملف Gradle الجذر الصحيح لمشروع POS عربي
 buildscript {
     repositories {
         google()
@@ -17,6 +16,6 @@ allprojects {
     }
 }
 
-tasks.register('clean', Delete) {
+task clean(type: Delete) {
     delete rootProject.buildDir
 }

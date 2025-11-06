@@ -1,0 +1,20 @@
+
+<manifest package="com.example.posapparabicv2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <application android:label="POS عربي V2" android:allowBackup="true" android:theme="@style/Theme.PosApp">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.SaleActivity" />
+        <activity android:name=".ui.ProductListActivity" />
+        <activity android:name=".ui.ProductEditActivity" />
+        <activity android:name=".ui.PaymentActivity" />
+        <activity android:name=".ui.BarcodeScanActivity" />
+    </application>
+</manifest>
